@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+    <title>Elena Barlow Portfolio Website</title>
+</head>
+<body>
+    <header>
+      <h2 class="logo">Elena <span>Barlow</span></h2>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </header>
+    <div class="hero"> 
+        <section class="main-info" id="home">
+          <h1>Elena Barlow</h1>
+          <h2 class="job">Web Developer</h2>
+          <a class="my-cv" href="img/Elena-Barlow_20398742_cv-library.docx" download="Elena Barlow CV">click here to download my CV</a>
+        </section>
+    </div> 
+    
+    <!--About Section Start-->
+    <section class="about" id="about">
+      <div class="main">
+        <img src="img/megrey.jpg">
+        <div class="about-text">
+          <h2>About Me</h2>
+          <h5>Developer & Designer</h5>
+          <p>Highly motivated junior web developer temporarily living in Alexandria, Egypt.</p>
+          <p>Has experience using HTML5, CSS3, javascript, PHP, JSON, Jquery, GIT, Github and Wordpress.</p>
+          <p>Always thinking about the next project. Looking for new opportunities for growth and new technologies to work with.</p>
+        </div>
+      </div>
+    </section> 
+
+    <!--Portfolio Section Start-->
+    <section class="portfolio" id="portfolio">
+        <div class="title">
+          <h2>Here are some of my past projects</h2>
+        </div> 
+
+        <div class="projects">
+          <a href="https://github.com/ElenaBarlow/First-Portfolio-Website"><div class="project one"><p class="text-1">Old Portfolio</p></div></a>
+          <a href="https://github.com/ElenaBarlow/Kidneystone-App"><div class="project two"><p class="text-2">Kidneystone App</p></div></a>
+          <a href="https://github.com/ElenaBarlow/first-website-design"><div class="project three"><p class="text-3">Arabic Ark</p></div></a>
+        </div> 
+  
+    </section> 
+    
+    <!--Contact Section Start--> 
+    <section class="contact-info" id="contact">
+      <div class="card">
+          <i class="card-icon fa-brands fa-github"></i>
+          <p><a href="https://github.com/ElenaBarlow" target="_blank">https://github.com/ElenaBarlow</a></p>
+      </div>
+        
+        <div class="card">
+          <i class="card-icon fa-brands fa-linkedin"></i> 
+          <p><a href="https://linkedinaccount" target="_blank">https://linkedinaccount</a></p>
+        </div>
+        
+        <div class="card">
+          <i class="card-icon fa-solid fa-envelope"></i>
+          <p><a href="mailto:elena.barlow1998@gmail.com" target="_blank">elena.barlow1998@gmail.com</a></p>
+        </div>
+    </section>
+  
+  
+  
+  <script type="text/javascript">
+    window.addEventListener("scroll", function(){
+        const header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 100);
+    })
+  </script>
+</body>
+</html>
