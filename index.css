@@ -134,15 +134,20 @@ h1 {
     width: 100%;
     padding: 100px 0px;
     background-color: #191919;
+    position: relative;
 } 
 
 .about img {
-    height: auto;
-    width: 430px;
+    height: 500px;
+    width: 700px;
+    position: absolute;
+    left: 10em;
 } 
 
 .about-text {
     width: 550px;
+    position: absolute;
+    right: 19em;
 } 
 
 .main {
