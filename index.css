@@ -134,7 +134,8 @@ h1 {
     width: 100%;
     padding: 100px 0px;
     background-color: #191919;
-    position: relative;
+    position: relative; 
+    z-index: -2;
 } 
 
 .about img {
